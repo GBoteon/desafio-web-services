@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
         var intent = Intent(this, LoginActivity::class.java)
         scope.launch {
-            delay(2000)
+            delay(2500)
             startActivity(intent)
             finish()
         }
